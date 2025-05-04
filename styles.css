@@ -270,3 +270,7 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.additional-info__education-university:not(:last-child) {
+  margin-bottom: 10px;
+}

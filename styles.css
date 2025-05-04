@@ -170,6 +170,12 @@ body {
   text-align: justify;
 }
 
+.skills__text-decsription {
+  color: var(--secondary-text-color);
+  text-align: justify;
+  font-weight: 600;
+}
+
 /* Experience and additional info styles */
 .experiences {
   flex: 1 1 60%;
@@ -251,16 +257,23 @@ body {
   color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
+.additional-info__languages,
+.additional-info__hobbies {
   margin-bottom: 20px;
 }
 
-.additional-info__languages-header {
+.additional-info__languages-header,
+.additional-info__hobbies-header {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
 
-.additional-info__languages-item {
+.additional-info__languages-item,
+.additional-info__hobbies-item {
   color: var(--secondary-text-color);
+}
+
+.additional-info__education-university:not(:last-child) {
+  margin-bottom: 10px;
 }

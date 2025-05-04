@@ -170,6 +170,12 @@ body {
   text-align: justify;
 }
 
+.skills__text-decsription {
+  color: var(--secondary-text-color);
+  text-align: justify;
+  font-weight: 600;
+}
+
 /* Experience and additional info styles */
 .experiences {
   flex: 1 1 60%;
@@ -263,4 +269,8 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.additional-info__education-university:not(:last-child) {
+  margin-bottom: 10px;
 }
